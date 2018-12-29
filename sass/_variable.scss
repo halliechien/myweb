@@ -1,0 +1,31 @@
+@mixin rf--r() {
+    border: 1px solid #f00;
+}
+
+@mixin rf--b() {
+    border: 1px solid #00f;
+}
+
+@mixin rf--g() {
+    border: 1px solid #0f0;
+}
+
+@mixin rf--w() {
+    border: 1px solid #fff;
+}
+
+@mixin rf--0() {
+    border: 1px solid #000;
+}
+
+$blue: #55687b;
+$red: #8a3c54;
+$brown:#a47d52;
+$pink: #deb6b0;
+
+$blue--opacity7: rgba(86, 104, 124, 0.7);
+$red--opacity7: rgba(139, 59, 84, 0.7);
+$brown--opacity7:rgba(164, 125, 84, 0.7);
+$pink--opacity7: rgba(221, 182, 175, 0.7);
+
+$color-bg:#f6f6f6;

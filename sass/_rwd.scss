@@ -1,0 +1,210 @@
+@media (max-width: 991px) {
+    body>section {
+        padding: 60px 0;
+    }
+
+    /* experience */
+    .main-title {
+        &--right {
+            text-align: center;
+
+            &::before {
+                right: inherit;
+                left: 50%;
+                margin-left: -50px;
+            }
+
+            &::after {
+                left: 50%;
+                margin-left: -5.5px;
+            }
+        }
+    }
+
+    .media {
+        .media-body {
+            p {
+                padding-top: 8px;
+            }
+
+            h3 {
+                margin: 0 20px 8px 0;
+            }
+        }
+
+        &__list {
+            margin-top: 8px;
+        }
+    }
+
+    /* skills */
+    .service-features {
+        margin: 0;
+        padding: 40px 0 40px 65px;
+    }
+
+    /* portfolio */
+    .portfolio__container {
+        width: 80%;
+        padding: 28px 48px 0;
+    }
+
+    /* portfolio.html */
+    #portfolio {
+        .title-row {
+            padding-top: 8px;
+        }
+
+        .main-title {
+            margin-bottom: 8px;
+            padding-bottom: 16px;
+        }
+    }
+
+
+}
+
+@media (max-width: 767px) {
+
+    /* nav */
+    .container>.navbar-header {
+        padding: 0 8px 0 16px;
+    }
+
+    /* experience */
+    .media {
+        padding-left: 30px;
+    }
+
+
+
+    /* training */
+    .media>.pull-left {
+        margin-right: 8px;
+    }
+
+    /* portfolio */
+    .portfolio__container {
+        width: 90%;
+    }
+}
+
+// replace for responsive.css
+@media only screen and (max-width: 767px) {
+
+    /* nav */
+
+    .navigation .navbar-nav>li>a {
+        background-color: transparent;
+
+        &:hover {
+            background-color: $pink--opacity7;
+        }
+    }
+
+
+    .navbar-brand {
+        padding: 20px 0 22px 4px;
+
+    }
+
+    .navbar-toggle {
+        border: 1px solid #fff0;
+        margin: 16px 8px 0 0;
+    }
+
+    .animated-nav .navbar-brand {
+        padding: 18px 4px;
+    }
+
+    .animated-nav .navbar-toggle {
+        border: 1px solid #fff;
+        margin: 12px 8px;
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* experience */
+    .media {
+        padding-left: 0;
+
+        &__icon {
+            margin-right: 8px;
+            padding: 4px 0 0;
+        }
+
+        &__dot-img {
+            width: 30px;
+        }
+    }
+
+    /* skill */
+    .service-features {
+        padding-left: 36px;
+    }
+
+    .service-features ul li {
+        padding-left: 32px;
+    }
+
+    /* training */
+    .media>.pull-left {
+        margin-right: 0;
+    }
+
+    /* portfolio */
+    .portfolio__container {
+        padding: 28px 28px;
+    }
+
+    .portfolio-content p {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+
+    /* skill */
+    .service-features {
+        padding-left: 12px;
+    }
+
+    .service-features ul li {
+        font-size: 14px;
+    }
+
+    /* training */
+    .media__dot-img {
+        width: 20px;
+        vertical-align: -10px;
+    }
+
+    /* porfolio */
+    .portfolio__container {
+        padding: 28px 24px;
+    }
+
+    .portfolio-content__btn {
+        margin-top: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+// @media (max-width: 767px) {}
+
+// @media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+// @media only screen and (max-width: 767px) {}
+
+// @media only screen and (min-width: 480px) and (max-width: 767px) {}
